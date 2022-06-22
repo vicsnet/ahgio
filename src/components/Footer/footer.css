@@ -1,0 +1,17 @@
+/* div {
+  position: absolute;
+} */
+.foot {
+  /* margin-bottom: 0px; */
+}
+.whole-footer {
+ 
+  /* position: relative; */
+  margin-bottom:   -59px;
+}
+@media screen and (max-width: 600px) {
+  .whole-footer {
+  margin-bottom: 115px;
+  
+}
+}

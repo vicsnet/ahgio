@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background: rgb(0, 48, 126);
+}
+.logo img{
+    height: 45px;
+    color: #fff;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-around;
+    color: #fff;
+}
+.nav_menu li{
+    list-style: none;
+}
+.nav_menu a{
+    color: darkgray;
+    text-decoration: none;
+}
+.nav_toggler button{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .nav_toggler {
+            display: block;
+        }
+    
+        .nav_menu {
+            position: fixed;
+            top: 7vh;
+            right: 0;
+            width: 50%;
+            height: 93vh;
+            background: rgb(0, 28, 73);
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: 0.5s ease-in;
+        }
+}
