@@ -2,7 +2,32 @@
   height: 484px;
   width: 100%;
   background: rgba(8, 10, 28, 1);
+/* background-image: url('../Images/Ellipse9.png');
+    background-repeat: no-repeat;
+     background-position: bottom center;
+     background-size: 360px 360px;
+     background-blend-mode:overlay; */
+    /* background-blend-mode: ; */
+   
+
+     /* background: linear-gradient(145.9deg, #55ADD2 18.76%, #805AEC 78.35%); */
+
+ 
   color: #ffffff;
+}
+
+.ell{
+background-image: url('../Images/Ellipse9.png');
+  position: absolute;
+  transform: rotate(20deg);
+  filter: blur(28px);
+  width: 460px;
+  height: 460px;
+  margin-left: 500px;
+  margin-top: -300px;
+  background-size: 460px 460px;
+   background-repeat: no-repeat;
+  background-position: bottom center;
 }
 .priv-head h3 {
   height: 70px;
@@ -17,6 +42,8 @@
   text-align: center;
   margin-left: 601px;
   margin-bottom: 73px;
+  z-index: 1;
+  position: relative;
 }
 .search {
   width: 942px;
@@ -25,6 +52,8 @@
   background: white;
   display: flex;
   margin-left: 250px;
+  /* z-index: 1; */
+  /* position: relative; */
 }
 .search span {
   font-size: 19px;
@@ -42,7 +71,22 @@
   border-radius: 4px;
   font-size: 24px;
   padding-left: 10px;
+  position: relative;
 }
+/* .ellipse img{
+  width: 400px;
+  height: 400px;
+  margin-left: 400px;
+  
+  margin-top: -400px;
+ 
+}
+.ellipse{
+ transform: rotate(20deg);
+ position: fixed;
+ filter: blur(28px);
+ z-index: -1;
+} */
 .sub-priv {
   color: #ececec;
   padding-bottom: 50px;
@@ -155,6 +199,25 @@
     /* height: 384px; */
     width: 100%;
   }
+  .ell{
+  margin-left: 300px;
+ 
+  
+ 
+}
+/* .ellipse img{
+  width: 300px;
+  height: 300px;
+  
+  
+  margin-top: -400px;
+ 
+} */
+/* .ellipse{
+ transform: rotate(20deg);
+ position: absolute;
+ filter: blur(28px);
+} */
   .priv-head h3 {
     padding-top: 191px;
     width: 60%;
@@ -187,16 +250,13 @@
   .sub-priv {
     margin-left: -10%;
   }
-  /* .nav-menu .nav-button {
-    color: #ffeeff;
-    color: white;
-    background: rgba(1, 1, 14, 1);
-  }
-  .nav-item .nav-button {
-    color: white;
-    color: #ffeeff;
-    
-  } */
+ .ell{
+
+
+  margin-top: -250px;
+ 
+ 
+}
 }
 @media screen and (max-width: 830px) {
   .priv-head h3 {
@@ -207,6 +267,10 @@
   .sub-priv {
     margin-left: -20%;
   }
+   .ell{
+  margin-left: 200px;
+ 
+}
 }
 @media screen and (max-width: 766px) {
   .priv-head h3 {
@@ -231,7 +295,12 @@
     height: 384px;
     width: 100%;
   }
-  .priv-head h3 {
+   .ell{
+  margin-left: 100px;
+}
+ 
+
+.priv-head h3 {
     width: 60%;
     font-size: 28px;
 
@@ -412,6 +481,15 @@ height: 24px;
   .priv-head h3 {
     margin-left: 10%;
   }
+   .ell{
+
+  width: 360px;
+  height: 400px;
+  margin-left: 70px;
+  margin-top: -200px;
+  background-size: 360px 450px;
+ 
+}
   .search {
     margin-left: 10%;
   }
@@ -490,6 +568,15 @@ height: 24px;
     width: 90%;
     margin-left: -5%;
   }
+    .ell{
+
+  width: 248px;
+  height: 205px;
+  margin-left: 60px;
+  margin-top: -100px;
+  background-size: 248px 205px;
+ 
+}
   .sub-priv h3 {
     width: 80%;
 
@@ -536,6 +623,10 @@ height: 24px;
   .search {
     margin-left: 8%;
   }
+   .ell{
+  margin-left: 30px;
+ 
+}
 }
 @media screen and (max-width: 382px) {
   .priv-head h3 {

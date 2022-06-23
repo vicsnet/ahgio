@@ -9,6 +9,7 @@ function Support() {
       <div className="head-back">
         <Navmenu />
         <h2>Privacy Policy</h2>
+        <div className="ell"></div>
       </div>
       <div className="support-details">
         <div className="support-sub-details sp">

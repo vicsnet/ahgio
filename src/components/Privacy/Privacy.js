@@ -1,6 +1,7 @@
 import React from "react";
 import Navmenu from "../Header/Navmenu";
 import { FaSearch } from "react-icons/fa";
+import Ellipse from "../Images/Ellipse9.png";
 import "./privacy.css";
 import Footer from "../Footer/Footer";
 
@@ -9,7 +10,9 @@ function Privacy() {
     <div className="priv-main">
       <div className="priv-head">
         <Navmenu />
+
         <h3>Support</h3>
+        <div className="ell"></div>
         <br />
         <div className="search">
           <span>
@@ -17,6 +20,11 @@ function Privacy() {
           </span>
           <input type="text" placeholder="Search Questions" />
         </div>
+
+        {/* <div className="ellipse">
+          <img src={Ellipse} alt="" />
+       
+        </div> */}
       </div>
       <div className="sub-priv">
         <h3>
@@ -24,7 +32,6 @@ function Privacy() {
         </h3>
 
         <div className="main-text">
-          
           <div className="text-priv">
             <div className="head-priv">
               <span>Q</span>
