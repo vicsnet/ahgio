@@ -188,7 +188,7 @@
 
 @media screen and (max-width: 860px) {
   .say-main {
-    height: auto;
+    height: 800px;
   }
 
   .say-col {

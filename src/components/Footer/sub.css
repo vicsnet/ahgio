@@ -9,12 +9,14 @@
 .whole-footer {
   display: flex;
   position: relative;
+
 }
 
 .main-main-subfooter {
   width: 1209px;
   height: 395px;
   margin-bottom: 0px;
+
 }
 
 .main-subFooter {
@@ -114,6 +116,7 @@
     width: 740px;
     height: 395px;
     margin-left: 40px;
+    
   }
 
   .first-col {
