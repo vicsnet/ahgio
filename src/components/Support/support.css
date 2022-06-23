@@ -19,6 +19,9 @@
   padding-top: 81px;
   padding-bottom: 50px;
 }
+/* .nav-button2{
+  background: white;
+} */
 .support-details h3 {
   font-family: DM Sans;
   font-size: 34px;
@@ -64,7 +67,7 @@
     margin-right: 30px;
     width: 90%;
   }
-  .support-sub-details{
+  .support-sub-details {
     margin-bottom: 52px;
   }
   .support-details h3 span {
@@ -182,4 +185,3 @@
     width: 100%;
   }
 }
-

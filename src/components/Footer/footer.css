@@ -9,9 +9,21 @@
   /* position: relative; */
   margin-bottom:   -59px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .whole-footer {
-  margin-bottom: 115px;
+  margin-bottom: -180px;
   
 }
+}
+@media screen and (max-width: 600px) {
+  .whole-footer {
+  margin-bottom: 119px;
+  
+}
+}
+@media screen and (max-width: 495px){
+ .whole-footer{
+
+   margin-bottom: 50px;
+ }
 }

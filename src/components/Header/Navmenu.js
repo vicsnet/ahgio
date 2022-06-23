@@ -12,6 +12,11 @@ function Navmenu() {
 
   const handleClick = () => setClick(!click);
 
+  const [btnChange, setBtnChange] = useState(false);
+  const onLinkClick = () => {
+    setBtnChange(!btnChange);
+  };
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -21,7 +26,10 @@ function Navmenu() {
         </Link>
       </div>
 
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul
+      onClick={onLinkClick}
+        className={click ? "nav-menu active" : "nav-menu"}
+      >
         <li className="nav-item">
           <Link to="/support">Support</Link>
         </li>
@@ -31,7 +39,13 @@ function Navmenu() {
         </li>
 
         <li className="nav-item ">
-          <button className="nav-button">
+          <button
+            className={`nav-button ${
+              btnChange
+                ? "nav-button-active .nav-menu .nav-button-active a"
+                : ""
+            }`}
+          >
             <a href="/">Get the App</a>
           </button>
         </li>
@@ -49,11 +63,8 @@ function Navmenu() {
             <div id="close-menu2">
               <CloseRoundedIcon size={22} />
             </div>
-
-           
           </div>
         ) : (
-         
           <FaBars size={32} style={{ color: "#FFFFFF" }} className="bars" />
         )}
       </div>

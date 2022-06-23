@@ -69,6 +69,12 @@
   text-align: left;
   color: #c7c7c7;
 }
+/* .nav-button {
+  background: rgba(255, 255, 255, 1);
+}
+.nav-menu .nav-button a {
+  color: rgba(1, 1, 14, 1);
+} */
 .main-text {
 }
 .text-priv {
@@ -181,6 +187,16 @@
   .sub-priv {
     margin-left: -10%;
   }
+  /* .nav-menu .nav-button {
+    color: #ffeeff;
+    color: white;
+    background: rgba(1, 1, 14, 1);
+  }
+  .nav-item .nav-button {
+    color: white;
+    color: #ffeeff;
+    
+  } */
 }
 @media screen and (max-width: 830px) {
   .priv-head h3 {
@@ -252,23 +268,20 @@
     font-size: 16px;
     text-align: left;
   }
- 
 
   .text-priv {
     height: 164px;
     width: 80%;
     margin-left: 0%;
-  
   }
   .head-priv {
     margin-left: 10%;
     margin-right: 10%;
-    
   }
   .head-priv p {
     margin-left: 30px;
     height: 27px;
-    
+
     font-size: 16px;
     font-weight: 500;
     line-height: 27px;
@@ -278,7 +291,6 @@
     padding-top: 10px;
   }
   .head-priv span {
-    
     font-size: 28px;
   }
   .head-details p {
@@ -291,12 +303,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  
- 
   .priv-head h3 {
-    
     margin-top: -25%;
-  
   }
   .search {
     width: 327px;
@@ -478,31 +486,25 @@ height: 24px;
 }
 
 @media screen and (max-width: 438px) {
-  
   .sub-priv {
     width: 90%;
     margin-left: -5%;
   }
   .sub-priv h3 {
-   
     width: 80%;
-    
 
     font-size: 16px;
     text-align: left;
   }
 
-
   .text-priv {
     height: 164px;
     width: 80%;
     margin-left: 0%;
-   
   }
   .head-priv {
     margin-left: 10%;
     margin-right: 10%;
-  
   }
   .head-priv p {
     margin-left: 30px;
@@ -517,7 +519,6 @@ height: 24px;
     padding-top: 10px;
   }
   .head-priv span {
-   
     font-size: 28px;
   }
   .head-details p {
@@ -529,29 +530,24 @@ height: 24px;
   }
 }
 @media screen and (max-width: 409px) {
-  .priv-head h3{
-      margin-top: -35%;
+  .priv-head h3 {
+    margin-top: -35%;
   }
-  .search{
-      margin-left: 8%;
+  .search {
+    margin-left: 8%;
   }
- 
 }
 @media screen and (max-width: 382px) {
-  .priv-head h3{
-      margin-top: -35%;
-      margin-left: 12%;
+  .priv-head h3 {
+    margin-top: -35%;
+    margin-left: 12%;
   }
-  .search{
-      margin-left: 4%;
+  .search {
+    margin-left: 4%;
   }
- 
 }
 @media screen and (max-width: 365px) {
- 
-  .search{
-      margin-left: 2.5%;
+  .search {
+    margin-left: 2.5%;
   }
- 
 }
-

@@ -231,7 +231,7 @@
 }
 @media screen and (max-width: 600px) {
   .say-main {
-    height: auto;
+    height: 700px;
   }
   .say-col {
   margin-left: 60px;
@@ -255,6 +255,9 @@
   }
 }
 @media screen and (max-width: 508px) {
+  .say-main {
+    height: 600px;
+  }
   .say-col1-2 h3 {
   height: 33px;
   width: 40px;

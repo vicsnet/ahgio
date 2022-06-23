@@ -1,151 +1,191 @@
-.main-foot{
-    /* position: absolute; */
-    /* margin-top: -30px; */
-    height: 370px;
-    width: 100%;
-    background: #0F1028;
-    /* overflow: hidden;
+.main-foot {
+  /* position: absolute; */
+  /* margin-top: -30px; */
+  height: 370px;
+  width: 100%;
+  background: #0f1028;
+  /* overflow: hidden;
     overflow-x: hidden; */
-    
-    
 }
-.grid{
-    display: flex;
-    flex-direction: row;
-    gap: 40rem;
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 40rem;
 }
-.logo-section img{
-    height: 51.0185546875px;
-        width: 170.216796875px;
-        margin-left: 90px;
-        margin-top: 82px;
-        border-radius: 0px;
+.logo-section img {
+  width: 118px;
+  height: 40px;
+  margin-left: 90px;
+  margin-top: 82px;
+  border-radius: 0px;
 }
-.help-section{
-    margin-top: 69px;
+.logo img {
+  width: 118px;
+  height: 40px;
 }
-.help-section span{
-    height: 36px;
-    width: 323px;
-    font-family: DM Sans;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.36000001430511475px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
+.help-section {
+  margin-top: 69px;
+}
+.help-section span {
+  height: 36px;
+  width: 323px;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
 }
 .support-privacy {
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-    margin-left: 126px;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 24px;
+  /* margin-left: 126px; */
 }
-.support-privacy a{
-    text-decoration: none;
-    height: 24px;
-    width: 60px;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #BBBBBB;
-    text-transform: capitalize;
+.support-privacy a {
+  text-decoration: none;
+  height: 24px;
+  width: 60px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #bbbbbb;
+  text-transform: capitalize;
 }
-.priv{
-    margin-left: -180px;
+.priv {
+  /* margin-left: -180px; */
 }
-.social{
-    margin-left: 0px;
-    margin-top: 27.47px;
-    color: #BBBBBB;
-font-size: 15px;
+.social {
+  margin-left: 0px;
+  margin-top: 27.47px;
+  color: #bbbbbb;
+  font-size: 15px;
+}
+.FaInstagram {
+  margin-right: 17.46px;
+  margin-left: 17.46px;
+}
+.FaTwitch {
+  margin-right: 17.46px;
+  margin-left: 17.46px;
+}
+.line {
+  border: 1px dashed #bbbbbb;
+  height: 0px;
+  width: 100%;
+  left: 0px;
+  margin-top: 84px;
+  opacity: 15%;
+}
+.copy {
+  color: #bbbbbb;
+  text-align: center;
+  margin-top: 28px;
+
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.07800000160932541px;
+}
+@media screen and (max-width: 1200px) {
+    .help-section {
+  margin-left: -230px;
+}
+}
+@media screen and (max-width: 1097px) {
+    .help-section {
+  margin-left: -240px;
+}
+}
+@media screen and (max-width: 1050px) {
+    .help-section {
+  margin-left: -300px;
+}
+.logo-section img {
+  
+  margin-left: 30px;
+  
+}
+}
+@media screen and (max-width: 995px) {
+    .help-section {
+  margin-left: -380px;
+}
+}
+@media screen and (max-width: 954px) {
+    .grid{
+  margin-top: 40px;
+}
+.help-section span {
+
+  width: 300px;
+ 
+  font-size: 22px;
 
 }
-.FaInstagram{
-    margin-right: 17.46px;
-    margin-left: 17.46px;
 }
-.FaTwitch{
-    margin-right: 17.46px;
-        margin-left: 17.46px;
-}
-.line{
-    border: 1px dashed #BBBBBB;
-    height: 0px;
-        width: 100%;
-        left: 0px;
-        margin-top: 84px;
-       
-}
-.copy{
-    color: #BBBBBB;
-    text-align: center;
-    margin-top: 28px;
-    
-        
-            font-family: DM Sans;
-            font-size: 13px;
-            font-weight: 400;
-            line-height: 20px;
-            letter-spacing: -0.07800000160932541px;
-            
-       
-}
-@media screen and (max-width: 940px) {
-    .main-foot {
-            height: 400px;
-       
-           
-            /* overflow: hidden;
+
+@media screen and (max-width: 800px) {
+  .main-foot {
+    height: 350px;
+
+    /* overflow: hidden;
         overflow-x: hidden; */
-    
-    
-        }
-    .grid {
-            flex-direction: column;
-            gap: 0;
-            
-           
-        }
-        .help-section{
-            margin-top: 0px;
-            margin-left: 90px;
-        }
-                .support-privacy {
-                    flex-direction: column;
-                    align-items: left;
-                    text-align: left;
-                    margin-left: 0;
-                }
-                .priv{
-                    margin-left: 0;
-                    padding-top: 5px;
-                }
-                .line{
-                    margin-top: 20px;
-                }
+  }
+  .grid {
+    flex-direction: column;
+    gap: 0;
+  }
+  .support-privacy{
+      gap: 0;
+      margin-top: 0px;
+  }
+  .help-section {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+  .support-privacy {
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-left: 0;
+  }
+  .priv {
+    margin-left: 0;
+    padding-top: 5px;
+  }
+  .line {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .help-section span h3{
-        height: 24px;
-            width: 173px;
-      
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 24px;
-    }
+ .main-foot{
+     height: 350px;
+ }
 }
 
 @media screen and (max-width: 600px) {
-    .main-foot {
-            /* position: absolute; */
-            margin-top: -260px;
-           
-    
-    
-        }
+  .main-foot {
+    /* position: absolute; */
+    margin-top: -260px;
+    /* height: 400px; */
+  }
+   .help-section span h3 {
+    height: 24px;
+    width: 203px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .support-privacy{
+      font-size: 16px;
+  }
 }

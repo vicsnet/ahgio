@@ -1,9 +1,15 @@
 import React, { useEffect } from "react";
-import "./mainfoot.css"
+import "./mainfoot.css";
 import Logowhite from "../Images/Logowhite.png";
-import {FaTwitter, FaInstagram, FaFacebookSquare, FaTwitch} from 'react-icons/fa'
+import {
+  FaTwitter,
+  FaInstagram,
+  FaFacebookSquare,
+  FaTwitch,
+} from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 function Mainfooter() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -11,19 +17,22 @@ function Mainfooter() {
   return (
     <div className="main-foot">
       <div className="grid">
-        <div  className="logo-section">
-          <img src={Logowhite} alt="" />
+        <div className="logo-section">
+          <Link to={"/"}>
+            <img src={Logowhite} alt="" />
+          </Link>
         </div>
-        <div  className="help-section">
+        <div className="help-section">
           <span>
             <h3>How Can We Help you?</h3>
           </span>
           <div className="support-privacy">
-            <a href="#"> support</a>
-            <a href="#" className="priv">
+            <Link to="/support"> support</Link>
+            
+            <Link to="/privacy" className="priv">
               {" "}
               privacy
-            </a>
+            </Link>
           </div>
           <div className="social">
             <FaTwitter className="FaTwitter" />
@@ -35,11 +44,9 @@ function Mainfooter() {
         </div>
       </div>
       <div className="line"></div>
-      <div  className="copy">
-        © 2022 Ahgio
-      </div>
+      <div className="copy">© 2022 Ahgio</div>
     </div>
   );
 }
 
-export default Mainfooter
+export default Mainfooter;

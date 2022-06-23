@@ -23,7 +23,7 @@ function Subfooter() {
             </div>
             <div className="store">
               <img src={Frame71} alt="" />
-              <img src={Frame82} alt="" className="im1" />
+              <img src={Frame82} alt="" className="im1 store-img2" />
             </div>
           </div>
         </div>

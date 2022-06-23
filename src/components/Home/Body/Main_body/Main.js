@@ -27,8 +27,8 @@ function Main() {
                   "Card Issuing",
                   1000,
                 ]}
-                wrapper="a"
-                repeat={3}
+                loop={0}
+                wrapper="h2"
               />
             </h2>
           </div>

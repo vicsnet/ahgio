@@ -1,5 +1,5 @@
-import React from 'react'
-import './support.css'
+import React from "react";
+import "./support.css";
 import Navmenu from "../Header/Navmenu";
 import Footer from "../Footer/Footer";
 
@@ -7,7 +7,7 @@ function Support() {
   return (
     <div className="main-support">
       <div className="head-back">
-    <Navmenu />
+        <Navmenu />
         <h2>Privacy Policy</h2>
       </div>
       <div className="support-details">
@@ -56,4 +56,4 @@ function Support() {
   );
 }
 
-export default Support
+export default Support;

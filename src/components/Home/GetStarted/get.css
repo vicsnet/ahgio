@@ -342,7 +342,7 @@
 
 @media screen and (max-width: 486px) {
   .getstarted {
-    background-size: 360px 480px;
+    background-size: 360px 640px;
     background-position: top center;
   }
   .main-start {
@@ -362,10 +362,10 @@
     margin-left: 0px;
   }
   .span-col-2 {
-    margin-top: 155px;
+    margin-top: 250px;
   }
   .span-col-3 {
-    margin-top: 190px;
+    margin-top: 250px;
   }
   .span-col-3 .text-details h3 {
     margin-left: 90px;
@@ -426,10 +426,13 @@
     margin-left: 10px;
     padding-top: -140px;
   }
+  .span-col-2 {
+    margin-left: -250px;
+  }
 }
 @media screen and (max-width: 390px) {
   .main-start {
-    height: 1100px;
+    height: 1240px;
     margin-top: 30px;
   }
   .start-head h2 {
@@ -444,10 +447,13 @@
     /* padding-top: -140px; */
     padding-bottom: 50px;
   }
+  .span-col-2 {
+    margin-left: -270px;
+  }
 }
 @media screen and (max-width: 375px) {
   .main-start {
-    height: 1100px;
+    height: 1240px;
     margin-top: 30px;
   }
   .start-head h2 {
