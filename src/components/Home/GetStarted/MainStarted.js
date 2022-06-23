@@ -49,7 +49,7 @@ function MainStarted() {
             <div className="text-details">
               <h3>Fund your Wallet</h3>
 
-              <p id="start-tem">
+              <p id="start-tem start-tem3">
                 Fund your wallet, create a card , perform international
                 transactions, pay bills, receive money, shop and perform other
                 amazing transactions!

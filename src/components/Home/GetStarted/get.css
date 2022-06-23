@@ -290,7 +290,9 @@
   #start-tem {
     margin-top: 30px;
   }
-
+#start-tem3{
+  margin-top: 0px;
+}
   .text-details #start-tem2 {
     margin-top: 60px;
   }
@@ -374,6 +376,9 @@
     margin-top: -14px;
     margin-left: 90px;
   }
+  #start-tem3{
+    padding-top: -20px;
+  }
   #start-tem2 {
     margin-top: 30px;
     margin-left: 0px;
@@ -418,6 +423,10 @@
   }
   .span-col-2 .text-details p {
     text-align: right;
+  }
+  .span-col-3 .text-details p{
+    margin-left: 90px;
+    margin-top: -12px;
   }
 }
 

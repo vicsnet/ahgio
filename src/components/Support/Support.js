@@ -11,7 +11,7 @@ function Support() {
         <h2>Privacy Policy</h2>
       </div>
       <div className="support-details">
-        <div className="support-sub-details">
+        <div className="support-sub-details sp">
           <h3>
             1<span>Lorem ipsum dolor sit amet</span>
           </h3>
@@ -24,9 +24,10 @@ function Support() {
             aliqua. Ut enim ad minim veniam.
           </p>
         </div>
-        <div className="support-sub-details">
+
+        <div className="support-sub-details ">
           <h3>
-            2 <span>Lorem ipsum dolor sit amet</span>
+            2<span>Lorem ipsum dolor sit amet</span>
           </h3>
           <p>
             Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -39,7 +40,7 @@ function Support() {
         </div>
         <div className="support-sub-details">
           <h3>
-            3 <span>Lorem ipsum dolor sit amet</span>
+            3<span>Lorem ipsum dolor sit amet</span>
           </h3>
           <p>
             Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
