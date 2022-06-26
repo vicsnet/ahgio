@@ -13,7 +13,7 @@ import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOu
 
 function Review() {
   return (
-    <div data-aos="flip-left" className="review">
+    <div data-aos="fade-down" className="review">
       <div className="test-details">
         <p>
           This is innovative, I have not come across any platform that
@@ -33,11 +33,9 @@ function Review() {
         </div>
       </div>
       <div className="button">
-       
-        <ArrowCircleLeftOutlinedIcon  className="arrw" />
-   
+        <ArrowCircleLeftOutlinedIcon className="arrw" />
+
         <ArrowCircleRightOutlinedIcon className="arrw arrow1" />
-        
       </div>
       <div></div>
     </div>

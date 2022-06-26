@@ -20,7 +20,7 @@ function Main() {
             <h1>Beyond</h1>
             <h2>
               <TypeAnimation
-                cursor={true}
+                cursor={false}
                 sequence={[
                   "Payment Gateway",
                   "Borderless transactions",

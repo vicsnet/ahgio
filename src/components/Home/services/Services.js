@@ -17,7 +17,7 @@ function Services() {
 
       <div className="service-col">
         <div
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="service-col1 services-col-1"
@@ -41,7 +41,7 @@ function Services() {
         </div>
 
         <div
-          data-aos="fade-right"
+          data-aos="fade-down"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="service-col1 service-col2 "
@@ -65,7 +65,7 @@ function Services() {
         </div>
 
         <div
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="service-col1 service-col2 service-col3"

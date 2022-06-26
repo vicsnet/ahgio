@@ -15,10 +15,10 @@ function Subfooter() {
       <div className="main-main-subfooter">
         <div className="main-subFooter">
           <div className="sub">
-            <div data-aos="zoom-in" className="text">
+            <div data-aos="fade-down" className="text">
               <h3>What are you waiting for?</h3>
             </div>
-            <div data-aos="zoom-out" className="more-text">
+            <div data-aos="fade-down" className="more-text">
               <h3>Download the Wallet app & get started now!</h3>
             </div>
             <div className="store">

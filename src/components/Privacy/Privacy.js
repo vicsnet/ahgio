@@ -18,7 +18,7 @@ function Privacy() {
           <span>
             <FaSearch />
           </span>
-          <input type="text" placeholder="Search Questions" />
+          <input type="text" placeholder="Search questions..." />
         </div>
 
         {/* <div className="ellipse">

@@ -4,24 +4,21 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function MainStarted() {
-   useEffect(() => {
-     Aos.init({ duration: 2000 });
-   }, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="main-start">
-      <div  className="start-head head-down">
-        
-          <h2 className="head-here">Here's How To Get Started...</h2>
-      
+      <div className="start-head head-down">
+        <h2 className="head-here">Here's How To Get Started...</h2>
       </div>
-
       <div className="getstarted">
         <div className="get-text">
-          <div className="span-col span-col-1">
+          <div data-aos="fade-down" className="span-col span-col-1">
             <span>
               <h4>1</h4>
             </span>
-            <div data-aos="fade-up" className="text-details">
+            <div className="text-details">
               <h3>Download the App & Create your Account</h3>
               <p>
                 You can download the Wallet app on the GooglePlay store and
@@ -42,7 +39,7 @@ function MainStarted() {
             </span>
           </div>
 
-          <div data-aos="fade-up" className="span-col span-col-3">
+          <div data-aos="fade-down" className="span-col span-col-3">
             <span>
               <h4>3</h4>
             </span>
