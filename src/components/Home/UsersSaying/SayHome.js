@@ -12,6 +12,7 @@ function SayHome() {
   }, []);
   return (
     <div className="say-main">
+<<<<<<< HEAD
       <div className="say-main-col">
         <div className="say-col-text">
           <h3>What Users are Saying About Wallet</h3>
@@ -25,6 +26,20 @@ function SayHome() {
               className="say-col1-1"
             >
               <h3>What Users are Saying About Wallet</h3>
+=======
+      <div className="say-col-text">
+        <h3>What Users are Saying About Wallet</h3>
+      </div>
+      <div className="say-col">
+        <div className="say-col1">
+          <div data-aos="fade-down" className="say-col1-1">
+            <h3>What Users are Saying About Wallet</h3>
+          </div>
+          <div data-aos="fade-down" className="say-col1-2">
+            <div className="im1">
+              <h3>5.0</h3>
+              <img src={Group3} alt="" />
+>>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
             </div>
             <div
               data-aos="fade-down "

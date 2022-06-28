@@ -19,8 +19,12 @@ function Subfooter() {
               <h3>What are you waiting for?</h3>
             </div>
             <div data-aos="fade-down" className="more-text">
+<<<<<<< HEAD
               <h3><b>Download the Wallet app & get started now! </b></h3>
             
+=======
+              <h3>Download the Wallet app & get started now!</h3>
+>>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
             </div>
 
             <div className="store">

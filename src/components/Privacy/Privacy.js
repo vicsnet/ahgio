@@ -10,6 +10,7 @@ function Privacy() {
     <div className="priv-main">
       <div className="priv-head">
         <Navmenu />
+<<<<<<< HEAD
         <div className="all-privacy">
           <div className="privacy-head">
             <h3>Support</h3>
@@ -24,6 +25,17 @@ function Privacy() {
               <input type="text" placeholder="Search Questions" />
             </div>
           </div>
+=======
+
+        <h3>Support</h3>
+        <div className="ell"></div>
+        <br />
+        <div className="search">
+          <span>
+            <FaSearch />
+          </span>
+          <input type="text" placeholder="Search questions..." />
+>>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
         </div>
 
         {/* <div className="ellipse">

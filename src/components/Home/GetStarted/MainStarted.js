@@ -4,15 +4,18 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function MainStarted() {
-   useEffect(() => {
-     Aos.init({ duration: 2000 });
-   }, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="main-start">
       <div className="start-head head-down">
         <h2 className="head-here">Here's How To Get Started...</h2>
       </div>
+<<<<<<< HEAD
       <h2 className="head-here-me">Here's How To Get Started...</h2>
+=======
+>>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
       <div className="getstarted">
         <div className="get-text">
           <div data-aos="fade-down" className="span-col span-col-1">
