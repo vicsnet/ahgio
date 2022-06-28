@@ -9,15 +9,40 @@
   /* position: relative; */
   margin-bottom:   -59px;
 }
+
+@media screen and (max-width: 954px) {
+   .whole-footer {
+  margin-bottom: -100px;
+  
+}
+}
+@media screen and (max-width: 768px) {
+   .whole-footer {
+  margin-bottom: -120px;
+  
+}
+}
 @media screen and (max-width: 680px) {
   .whole-footer {
-  margin-bottom: -180px;
+  margin-bottom: -130px;
+  
+}
+}
+@media screen and (max-width: 632px) {
+  .whole-footer {
+  margin-bottom: -170px;
   
 }
 }
 @media screen and (max-width: 600px) {
   .whole-footer {
   margin-bottom: 119px;
+  
+}
+}
+@media screen and (max-width: 540px) {
+  .whole-footer {
+  margin-bottom: 70px;
   
 }
 }

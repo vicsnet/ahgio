@@ -21,7 +21,11 @@ function Whyus() {
       <h1 className="visible"> Why Us?</h1>
       <div className="main-why">
         <div className="why-col">
-          <div data-aos="fade-up" className="why-col1">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            className="why-col1"
+          >
             <h1 className="dis-show">Why Us? </h1>
             <p>
               We are geared towards making sure our users get all the most done

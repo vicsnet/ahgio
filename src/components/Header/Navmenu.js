@@ -37,6 +37,9 @@ function Navmenu() {
         <li className="nav-item">
           <Link to="/privacy">Privacy</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/terms">T & C</Link>
+        </li>
 
         <li className="nav-item ">
           <button
@@ -54,18 +57,18 @@ function Navmenu() {
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <div className="ham-close">
-            <div id="close-menu">
+            {/* <div id="close-menu">
               <ArrowBackRoundedIcon
                 size={22}
                 style={{ color: "rgba(154, 153, 153, 1)" }}
               />
-            </div>
+            </div> */}
             <div id="close-menu2">
               <CloseRoundedIcon size={22} />
             </div>
           </div>
         ) : (
-          <FaBars size={32} style={{ color: "#FFFFFF" }} className="bars" />
+          <FaBars size={22} style={{ color: "#FFFFFF" }} className="bars bar" />
         )}
       </div>
     </div>

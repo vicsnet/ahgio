@@ -20,14 +20,14 @@ function Main() {
             <h1>Beyond</h1>
             <h2>
               <TypeAnimation
-                cursor={true}
+                cursor={false}
                 sequence={[
                   "Payment Gateway",
                   "Borderless transactions",
                   "Card Issuing",
                   1000,
                 ]}
-                loop={0}
+                loop={3}
                 wrapper="h2"
               />
             </h2>
@@ -47,7 +47,7 @@ function Main() {
         <div className="col2">
           <img src={HeroImage} alt="" className="hel" />
           <div className="elipse">
-            <img src={Ellipse} alt="" />
+            <img className="e" src={Ellipse} alt="" />
           </div>
         </div>
       </div>

@@ -209,10 +209,12 @@
   .text h3 {
     font-size: 16px;
   }
+ 
 
   .more-text h3 {
     font-size: 16px;
     margin-left: -200px;
+    /* width: 100%; */
   }
 
   .store {
@@ -223,4 +225,10 @@
   }
   .sub {
   }
+}
+
+@media screen and (max-width: 412px) {
+.store{
+  width: 100%;
+}
 }

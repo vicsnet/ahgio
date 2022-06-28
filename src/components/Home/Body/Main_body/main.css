@@ -76,21 +76,17 @@ position: relative;
   height: 735px;
   padding-top: 82px;
   margin-left: -124px;
-  /* left: 837px;
-        
-        border-radius: 0px; */
+
 }
 .col2 .elipse {
   /* position: relative; */
   margin-top: -400px;
   margin-left: -400px;
   transform: rotate(20deg);
-   /* position: absolute; */
-  /* z-index: 2;  */
   filter: blur(28px);
-  /* background: linear-gradient(145.9deg, #55add2 18.76%, #805aec 78.35%);  */
-  /* margin-right: 900px; */
-  /* background-image: url('../../../Images/Ellipse9.png'); */
+  width: 600px;
+  height: 500px;
+ 
 }
 .elipse img {
   height: 593px;
@@ -104,7 +100,7 @@ position: relative;
 
 .store-show {
   margin-top: 120px;
-  margin-left: -32px;
+  margin-left: -41px;
 }
 
 .play {
@@ -115,7 +111,7 @@ position: relative;
 @media screen and (max-width: 1200px) {
   .main-body {
     background-size: 800px 650px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .col1 h1 {
     height: 70px;
@@ -291,21 +287,53 @@ position: relative;
 
 @media screen and (max-width: 874px) {
   .col2 {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 }
 @media screen and (max-width: 839px) {
   .col2 {
-    margin-left: -10px;
+    /* margin-left: -50px; */
+  }
+  .col2 img {
+    
+    width: 300px;
+    height: 505px;
   }
   .col1 h2 {
     font-size: 28px;
   }
+ 
 }
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 820px){
+   .col2 .ellipse{
+    
+  height: 393px;
+  width: 600px;
+  overflow-x: hidden;
+  
+
+  }
+  .elipse img {
+  height: 593px;
+  min-width: 400px;
+  overflow-x: hidden;
+ 
+}
+}
+
+@media screen and (max-width: 814px) {
+  .main-body{
+    width: 100%;
+    min-width: 100vw;
+  }
   .col {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .col2 img {
+    
+    width: 330px;
+    height: 535px;
   }
   .col1 {
     margin-top: -240px;
@@ -368,7 +396,21 @@ position: relative;
     font-family: DM Sans;
     font-size: 14px;
   }
+  .main-body {
+  
+  background-size: 400px 400px;
+  
 }
+}
+
+@media screen and (max-width: 460px){
+  .main-body {
+  
+  background-size: 400px 400px;
+  
+}
+}
+
 @media screen and (max-width: 440px) {
   .col2 {
     margin-left: 10%;
@@ -385,19 +427,27 @@ position: relative;
     margin-left: -10px;
   }
   .store-show {
-    margin-left: 10px;
+    /* margin-left: 20px; */
   }
   .store-show img {
     width: 149px;
     /* height: 50px; */
-    margin-left: -30px;
+    margin-left: -24px;
   }
   .play {
     /* margin-left: -100px; */
   }
   .col .col1 h2 {
     font-size: 24px;
+    width: 300px;
   }
+}
+@media screen and (max-width: 416px){
+  .main-body {
+  
+  background-size: 350px 350px;
+  
+}
 }
 @media screen and(max-width: 390px) {
   .hel {
@@ -415,4 +465,12 @@ position: relative;
   .col .col1 h2 {
     font-size: 24px;
   }
+}
+
+@media screen and (max-width: 360px){
+  .main-body {
+  
+  background-size: 350px 350px;
+  
+} 
 }

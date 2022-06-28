@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "../services/service.css";
 import Frame4572 from "../../Images/Frame4572.png";
-import Frame4573 from "../../Images/Frame4573.png";
+import Frame4573 from "../../Images/Group76.png";
 import Frame45731 from "../../Images/Group75.png";
 import Group68 from "../../Images/Group68.png";
 
@@ -13,21 +13,23 @@ function Services() {
   }, []);
   return (
     <div className="services">
-      <header className="head">Our Services</header>
+      <div className="services-head">
+        <header className="head">Our Services</header>
+      </div>
 
-      <div className="service-col">
+      <div className="service-col ">
         <div
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="service-col1 services-col-1"
         >
-          <div className="im im1">
-            <img src={Frame45731} alt="" />
+          <div className="im im1 ṣervices-im1 services-im">
+            <img src={Frame4573} alt="" />
           </div>
 
-          <div className="service-col2">
-            <div className="details1">
+          <div className="service-col2 services-col-col services-col-col1 ">
+            <div className="details1 ">
               <h3>Unparalleled International Shopping Experience</h3>
               <p>
                 Understanding the limits placed on your international shopping
@@ -41,12 +43,12 @@ function Services() {
         </div>
 
         <div
-          data-aos="fade-right"
+          data-aos="fade-down"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           className="service-col1 service-col2 "
         >
-          <div className="service-col2">
+          <div className="service-col2 services-col-col services-col-col2 ">
             <div className="details2">
               <h3>Take charge with our virtual card</h3>
               <p>
@@ -59,22 +61,22 @@ function Services() {
             </div>
           </div>
 
-          <div className="im im2">
+          <div className="im im2 ṣervices-im2 service-im">
             <img src={Frame45731} alt="" />
           </div>
         </div>
 
         <div
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="service-col1 service-col2 service-col3"
+          className="service-col1 service-col2 service-col3 service-col3-details"
         >
-          <div className="im im3">
+          <div className="im im3 ṣervices-im3 service-im">
             <img src={Group68} alt="" />
           </div>
 
-          <div className="service-col2">
+          <div className="service-col2 services-col-col services-col-col3">
             <div className="details2">
               <h3>Relax let us handle your logistics</h3>
               <p>

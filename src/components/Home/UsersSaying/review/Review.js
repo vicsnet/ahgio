@@ -13,7 +13,12 @@ import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOu
 
 function Review() {
   return (
-    <div data-aos="flip-left" className="review">
+    <div
+      data-aos="fade-down"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      className="review"
+    >
       <div className="test-details">
         <p>
           This is innovative, I have not come across any platform that
@@ -22,7 +27,7 @@ function Review() {
           more than 5 stars I will
         </p>
         <div className="vect">
-          <img src={Vector} alt="" className="im" />
+          <img src={Vector} alt="" className="vect-im" />
           <img src={Vector} alt="" />
           <img src={Vector} alt="" />
           <img src={Vector} alt="" />
@@ -33,11 +38,9 @@ function Review() {
         </div>
       </div>
       <div className="button">
-       
-        <ArrowCircleLeftOutlinedIcon  className="arrw" />
-   
+        <ArrowCircleLeftOutlinedIcon className="arrw" />
+
         <ArrowCircleRightOutlinedIcon className="arrw arrow1" />
-        
       </div>
       <div></div>
     </div>

@@ -42,6 +42,7 @@
   flex-direction: row;
   gap: 3rem;
   margin-top: 24px;
+  cursor: pointer;
   /* margin-left: 126px; */
 }
 .support-privacy a {
@@ -56,6 +57,7 @@
   text-align: left;
   color: #bbbbbb;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .priv {
   /* margin-left: -180px; */
@@ -64,7 +66,8 @@
   margin-left: 0px;
   margin-top: 27.47px;
   color: #bbbbbb;
-  font-size: 15px;
+  font-size: 17px;
+  background: transparent;
 }
 .FaInstagram {
   margin-right: 17.46px;
@@ -116,6 +119,13 @@
 @media screen and (max-width: 995px) {
     .help-section {
   margin-left: -380px;
+}
+.text-priv{
+  width: 600px;
+}
+.head-priv1 p{
+  padding-left: 40px;
+  width: 300px;
 }
 }
 @media screen and (max-width: 954px) {
@@ -188,4 +198,18 @@
   .support-privacy{
       font-size: 16px;
   }
+  .text-priv{
+    width: 340px;
+  }
+  .head-priv1 p{
+    padding-left: 10px;
+    width: 280px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo-section img {
+  width: 88px;
+  height: 30px;
+  
+}
 }

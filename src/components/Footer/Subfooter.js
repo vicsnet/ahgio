@@ -11,24 +11,26 @@ function Subfooter() {
   }, []);
   return (
     <div className="whole-footer">
-      <div className="first-col"></div>
+      
       <div className="main-main-subfooter">
         <div className="main-subFooter">
           <div className="sub">
-            <div data-aos="zoom-in" className="text">
+            <div data-aos="fade-down" className="text">
               <h3>What are you waiting for?</h3>
             </div>
-            <div data-aos="zoom-out" className="more-text">
-              <h3>Download the Wallet app & get started now!</h3>
+            <div data-aos="fade-down" className="more-text">
+              <h3><b>Download the Wallet app & get started now! </b></h3>
+            
             </div>
+
             <div className="store">
               <img src={Frame71} alt="" />
-              <img src={Frame82} alt="" className="im1 store-img2" />
+              <img src={Frame82} alt="" className=" store-img2" />
             </div>
           </div>
         </div>
       </div>
-      <div className="second-col"></div>
+      
     </div>
   );
 }

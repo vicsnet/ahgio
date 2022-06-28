@@ -5,7 +5,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaFacebookSquare,
-  FaTwitch,
+  FaYoutube,
 } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -28,10 +28,14 @@ function Mainfooter() {
           </span>
           <div className="support-privacy">
             <Link to="/support"> support</Link>
-            
+
             <Link to="/privacy" className="priv">
               {" "}
               privacy
+            </Link>
+            <Link to="/privacy" className="priv">
+              {" "}
+              T & C
             </Link>
           </div>
           <div className="social">
@@ -39,7 +43,7 @@ function Mainfooter() {
 
             <FaInstagram className="FaInstagram" />
             <FaFacebookSquare className="FaFacebookSquare" />
-            <FaTwitch className="FaTwitch" />
+            <FaYoutube className="FaTwitch" />
           </div>
         </div>
       </div>

@@ -1,24 +1,20 @@
-import React from "react";
-import "./support.css";
+import React from 'react'
+import "../Support/support.css";
 import Navmenu from "../Header/Navmenu";
 import Footer from "../Footer/Footer";
 
-function Support() {
+function Terms() {
   return (
     <div className="main-support">
       <div className="head-back">
         <Navmenu />
-        
-          <h2>Privacy Policy</h2>
-        
+
+        <h2>Terms & Conditions</h2>
 
         <div className="ell"></div>
       </div>
       <div className="support-details">
         <div className="support-sub-details sp">
-          <h3>
-            1<span>Lorem ipsum dolor sit amet</span>
-          </h3>
           <p>
             Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam. Onsectetur
@@ -30,9 +26,6 @@ function Support() {
         </div>
 
         <div className="support-sub-details ">
-          <h3>
-            2<span>Lorem ipsum dolor sit amet</span>
-          </h3>
           <p>
             Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam. Onsectetur
@@ -43,9 +36,6 @@ function Support() {
           </p>
         </div>
         <div className="support-sub-details">
-          <h3>
-            3<span>Lorem ipsum dolor sit amet</span>
-          </h3>
           <p>
             Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam. Onsectetur
@@ -61,4 +51,4 @@ function Support() {
   );
 }
 
-export default Support;
+export default Terms

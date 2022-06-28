@@ -11,6 +11,7 @@ import Navmenu from "./components/Header/Navmenu";
 import Privacy from "./components/Privacy/Privacy";
 import Support from "./components/Support/Support";
 import Home from "./components/Home/Home";
+import Terms from "./components/T&C/Terms";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/privacy" element={<Support />} />
           <Route path="/support" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </div>
       {/* <Navmenu /> */}
