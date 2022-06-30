@@ -52,6 +52,9 @@ top: 336px; */
 
   background: rgba(83, 167, 214, 1);
 }
+ .let{
+    display: none;
+  }
 .ahgio-no p {
   height: 60px;
   width: 24px;
@@ -383,4 +386,47 @@ top: 336px; */
     padding-left: 1%;
     width: 60%;
   }
+  .let{
+    margin-left: 5px;
+    
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  font-family: DM Sans;
+  font-weight: 500;
+
+   background: rgba(83, 167, 214, 1);
+   text-align: center;
+    
+  }
+  .let p{
+    padding: 30px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -14px;
+    font-size: 16px;
+  }
+  .ahgio-no{
+    display: none;
+  }
+  .ahgio-detail-text h3{
+    line-height: 24px;
+    height: 68px;
+  }
+  .ahgio-detail-text2 h3{
+    /* line-height: 24px; */
+    height: 28px;
+  }
+  .ahgio-detail-text3 h3{
+    /* line-height: 24px; */
+    height: 28px;
+  }
+  .ahgio-detail-text p{
+    line-height: 17px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 434px) {
+    
 }

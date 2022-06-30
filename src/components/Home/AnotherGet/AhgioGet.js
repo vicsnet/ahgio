@@ -12,6 +12,9 @@ function AhgioGet() {
           <div className="ahgio-no">
             <p>1</p>
           </div>
+          <div className="let">
+            <p>1</p>
+          </div>
           <div className="ahgio-details ">
             <h3>Download the App & Create your Account</h3>
             <p>
@@ -25,6 +28,9 @@ function AhgioGet() {
           <div className="ahgio-no ahgio-no2">
             <p>2</p>
           </div>
+          <div className="let">
+            <p>2</p>
+          </div>
           <div className="ahgio-details ahgio-details2">
             <h3>Complete your KYC Verification</h3>
             <p>
@@ -36,6 +42,9 @@ function AhgioGet() {
 
         <div className="ahgio-detail-text ahgio-detail-text3">
           <div className="ahgio-no ahgio-no3">
+            <p>3</p>
+          </div>
+          <div className="let">
             <p>3</p>
           </div>
           <div className="ahgio-details ahgio-details3">
