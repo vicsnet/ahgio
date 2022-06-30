@@ -621,7 +621,7 @@
 }
 @media screen and (max-width: 440px) {
 .getstarted {
-    background-size: 400px 460px;
+    background-size: 400px 472px;
     background-position: top center;
     /* margin-top: -100px; */
     /* height: 700px; */
@@ -629,7 +629,7 @@
 }
 @media screen and (max-width: 403px) {
 .getstarted {
-    background-size: 380px 440px;
+    background-size: 380px 452px;
     background-position: top center;
     /* margin-top: -100px; */
     /* height: 700px; */
@@ -646,7 +646,7 @@
 }
 @media screen and (max-width: 387px) {
 .getstarted {
-    background-size: 360px 420px;
+    background-size: 360px 432px;
     background-position: top center;
     /* margin-top: -100px; */
     /* height: 700px; */
@@ -676,7 +676,7 @@
 
 @media screen and (max-width: 365px) {
   .getstarted {
-    background-size: 330px 390px;
+    background-size: 330px 402px;
     background-position: top center;
     /* margin-top: -100px; */
     /* height: 700px; */
