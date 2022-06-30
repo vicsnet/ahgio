@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./aget.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function AhgioGet() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="agio-main-get">
       <div className="ahgio-get-text">
         <h2>Here's How To Get Started...</h2>
       </div>
       <div className="agio-main">
-        <div className="ahgio-detail-text ahgio-detail-text1">
+        <div
+          data-aos="fade-down"
+          className="ahgio-detail-text ahgio-detail-text1"
+        >
           <div className="ahgio-no">
             <p>1</p>
           </div>
@@ -24,7 +32,10 @@ function AhgioGet() {
           </div>
         </div>
 
-        <div className="ahgio-detail-text ahgio-detail-text2">
+        <div
+          data-aos="fade-up"
+          className="ahgio-detail-text ahgio-detail-text2"
+        >
           <div className="ahgio-no ahgio-no2">
             <p>2</p>
           </div>
@@ -40,7 +51,10 @@ function AhgioGet() {
           </div>
         </div>
 
-        <div className="ahgio-detail-text ahgio-detail-text3">
+        <div
+          data-aos="fade-down"
+          className="ahgio-detail-text ahgio-detail-text3"
+        >
           <div className="ahgio-no ahgio-no3">
             <p>3</p>
           </div>
