@@ -6,6 +6,8 @@ import Services from "./services/Services";
 import Getstarted from "./GetStarted/MainStarted";
 import UsersSaying from "./UsersSaying/SayHome";
 import Footer from "../Footer/Footer";
+import LetStart from "./Get/LetStart";
+import AhgioGet from "./AnotherGet/AhgioGet";
 // import Privacy from "./components/Privacy/Privacy";
 // import Support from "./components/Support/Support";
 
@@ -15,7 +17,9 @@ function Home() {
       <Main />
       <Whyus />
       <Services />
-      <Getstarted />
+      {/* <Getstarted /> */}
+      {/* <LetStart /> */}
+      <AhgioGet />
       <UsersSaying />
       <Footer />
       {/* <Navmenu /> */}

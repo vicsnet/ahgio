@@ -1,0 +1,120 @@
+.agio-main-get {
+  width: 100%;
+  height: auto;
+  background: rgba(15, 16, 40, 1);
+}
+.agio-main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 1440px;
+  background-image: url("../../Images/getImage.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ahgio-get-text {
+  width: 100%;
+}
+.ahgio-get-text h2 {
+  padding-top: 151px;
+  font-family: DM Sans;
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0.37400001287460327px;
+  text-align: center;
+}
+
+.ahgio-detail-text {
+  color: rgba(255, 255, 255, 1);
+  width: 60%;
+  display: flex;
+  margin-left: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+.ahgio-detail{
+    width: 100%;
+}
+.ahgio-no {
+  height: 82px;
+  width: 82px;
+  /* left: 494px;
+top: 336px; */
+  border-radius: 50%;
+  padding: 30px;
+
+  background: rgba(83, 167, 214, 1);
+}
+.ahgio-no p {
+  height: 60px;
+  width: 24px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: left;
+  margin-top: -18px;
+}
+.ahgio-details h3 {
+  /* width: 22rem; */
+  width: 70%;
+  height: 5.13rem;
+  font-family: DM Sans;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.37400001287460327px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.ahgio-details p {
+  /* width: 27rem; */
+  width: 90%;
+  height: 3.4rem;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: left;
+  color: rgba(187, 187, 187, 1);
+}
+.ahgio-detail-text2{
+    flex-direction: row-reverse;
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+.ahgio-details2 h3{
+    width: 90%;
+    height: 41px;
+    margin-left: 3.8rem;
+    text-align: right;
+}
+.ahgio-details2 p{
+    width: 70%;
+    margin-left: 11.6rem;
+    text-align: right;
+}
+/*  */
+.ahgio-detail-text3{
+    margin-top: 11rem;
+    margin-left: 27rem;
+}
+.ahgio-details3 h3{
+    height: 41px;
+    line-height: 41px;
+    width: 60%;
+   
+}
+.ahgio-details3 p{
+    width: 70%;
+    line-height: 27px;
+}
