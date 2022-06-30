@@ -462,10 +462,12 @@
   .span-col-2 .text-details2 h3 {
     margin-left: 2.2rem;
     width: 90%;
+    text-align: right;
   }
   .span-col-2 .text-details2 p {
     width: 18.75rem;
     margin-top: 0.5rem;
+    text-align: right;
   }
   .span-col-2 .text-details2 {
     margin-left: 3rem;
@@ -597,7 +599,7 @@
     margin-top: -2.5rem;
   }
   .span-col-2 .text-details2 h3 {
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
   }
   .span-col-2 .text-details2 p {
     margin-top: -0.1rem;
@@ -676,7 +678,7 @@
     font-size: 11px;
   }
   .span-col-2 .text-details2 h3 {
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
   }
   .span-col-3 .text-details3 p {
     /* margin-left: 5rem; */
@@ -712,6 +714,9 @@
   .span-col-2 {
     margin-top: 3rem;
    
+  }
+  .span-col-1{
+    margin-left: 5rem;
   }
 }
 @media screen and (max-width: 360px) {
