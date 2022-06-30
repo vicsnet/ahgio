@@ -20,23 +20,17 @@
 .head-here-me {
   display: none;
 }
+ .let{
+    display: none;
+  }
 .start-head {
   align-items: center;
   text-align: center;
   justify-items: center;
   width: 100%;
 
-<<<<<<< HEAD
   /* margin-left: 383px; */
   /* margin-bottom: -120px; */
-=======
-  margin-left: 383px;
-  width: 674px;
-  height: 41px;
-  margin-bottom: -120px;
-  padding-top: 20px;
-
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
 }
 .start-head h2 {
   height: 41px;
@@ -51,7 +45,7 @@
   line-height: 41px;
   letter-spacing: 0.37400001287460327px;
   text-align: left;
-  /* padding-top: 151px; */
+  padding-top: 151px;
 }
 .get-text {
   display: flex;
@@ -479,12 +473,43 @@
   .span-col-3 {
     margin-top: 6rem;
   }
+  
 }
 
 @media screen and (max-width: 578px) {
   .span-col-2 {
     margin-left: -4rem;
   }
+   .let{
+    margin-left: 5px;
+    /* margin-top: 10px; */
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  font-family: DM Sans;
+  font-weight: 200;
+/* font-size: 16px; */
+/* padding: 20px; */
+   background: rgba(83, 167, 214, 1);
+   text-align: center;
+    
+  }
+  .let p{
+    padding: 30px;
+    text-align: center;
+    margin-top: -16px;
+    margin-left: -10px;
+    font-size: 16px;
+  }
+
+  .span-col span {
+  display: none;
+}
+.span-col-2 .text-details2 .let2 {
+  margin-left: -20px;
+ 
+}
 }
 @media screen and (max-width: 530px) {
   .text-details3 h3 {
@@ -516,27 +541,14 @@
     height: 800px;
   }
   
-<<<<<<< HEAD
-=======
-  /* .head-here{
-    display: none;
-  } */
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
   .start-head {
     height: 8px;
 
     display: none;
   }
   .start-head h2 {
-<<<<<<< HEAD
     display: none;
     /* margin-top: -200px; */
-=======
-    font-size: 22px;
-    /* margin-top: -143px; */
-    width: 100vw;
-    /* overflow-x: hidden; */
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
   }
   .head-here-me {
     font-size: 16px;
@@ -629,7 +641,7 @@
 }
 @media screen and (max-width: 373px) {
   .getstarted {
-    background-size: 340px 450px;
+    background-size: 340px 380px;
   }
   .span-col-2 {
     margin-top: 5rem;

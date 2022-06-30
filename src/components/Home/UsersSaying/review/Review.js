@@ -13,16 +13,14 @@ import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOu
 
 function Review() {
   return (
-<<<<<<< HEAD
+
     <div
       data-aos="fade-down"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
       className="review"
     >
-=======
-    <div data-aos="fade-down" className="review">
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
+
       <div className="test-details">
         <p>
           This is innovative, I have not come across any platform that

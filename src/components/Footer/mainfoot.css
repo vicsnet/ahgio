@@ -59,6 +59,9 @@
   text-transform: capitalize;
   cursor: pointer;
 }
+.support-privacy Link{
+  cursor: pointer;
+}
 .priv {
   /* margin-left: -180px; */
 }
@@ -153,7 +156,7 @@
     gap: 0;
   }
   .support-privacy{
-      gap: 0;
+      gap: 0.2rem;
       margin-top: 0px;
   }
   .help-section {
@@ -162,14 +165,14 @@
   }
   .support-privacy {
     flex-direction: column;
-    align-items: left;
+    /* align-items: left; */
     text-align: left;
     margin-left: 0;
   }
-  .priv {
+  /* .priv {
     margin-left: 0;
     padding-top: 5px;
-  }
+  } */
   .line {
     margin-top: 20px;
   }
@@ -195,9 +198,13 @@
     font-weight: 700;
     line-height: 24px;
   }
-  .support-privacy{
+  /* .support-privacy{
       font-size: 16px;
-  }
+      margin-top: 0.2rem;
+  } */
+  /* .support-privacy Link{
+  cursor: pointer;
+  } */
   .text-priv{
     width: 340px;
   }

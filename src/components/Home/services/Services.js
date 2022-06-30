@@ -14,7 +14,7 @@ function Services() {
   return (
     <div className="services">
       <div className="services-head">
-        <header className="head">Our Services</header>
+        <header className="head">Features</header>
       </div>
 
       <div className="service-col ">

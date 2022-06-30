@@ -1,6 +1,6 @@
 .whole-footer {
   display: flex;
-  position: relative;
+  /* position: relative; */
   width: 100%;
 }
 
@@ -457,7 +457,7 @@
 }
 @media screen and (max-width: 400px) {
   .text h3 {
-    font-size: 14px;
+    font-size: 16px;
    
     
 
@@ -484,5 +484,6 @@
     height: 40px;
   }
    */
+
   
 }

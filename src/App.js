@@ -11,7 +11,7 @@ import Navmenu from "./components/Header/Navmenu";
 import Privacy from "./components/Privacy/Privacy";
 import Support from "./components/Support/Support";
 import Home from "./components/Home/Home";
-import Terms from "./components/T&C/Terms";
+import Terms from "./components/T & C/Terms";
 
 function App() {
   return (

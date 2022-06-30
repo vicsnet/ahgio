@@ -12,16 +12,17 @@ function MainStarted() {
       <div className="start-head head-down">
         <h2 className="head-here">Here's How To Get Started...</h2>
       </div>
-<<<<<<< HEAD
       <h2 className="head-here-me">Here's How To Get Started...</h2>
-=======
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
       <div className="getstarted">
         <div className="get-text">
           <div data-aos="fade-down" className="span-col span-col-1">
+            <div className="let">
+              <p>1</p>
+            </div>
             <span>
               <h4>1</h4>
             </span>
+
             <div className="text-details">
               <h3>Download the App & Create your Account</h3>
               <p>
@@ -38,15 +39,22 @@ function MainStarted() {
                 required to complete your KYC verification.{" "}
               </p>
             </div>
+            <div className="let let2">
+              <p>2</p>
+            </div>
             <span>
               <h4>2</h4>
             </span>
           </div>
 
           <div data-aos="fade-down" className="span-col span-col-3">
+            <div className="let">
+              <p>3</p>
+            </div>
             <span>
               <h4>3</h4>
             </span>
+
             <div className="text-details text-details3">
               <h3>Fund your Wallet</h3>
 

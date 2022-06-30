@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 function Mainfooter() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -18,25 +18,32 @@ function Mainfooter() {
     <div className="main-foot">
       <div className="grid">
         <div className="logo-section">
-          <Link to={"/"}>
+          <NavLink to={"/"}>
             <img src={Logowhite} alt="" />
-          </Link>
+          </NavLink>
         </div>
         <div className="help-section">
           <span>
             <h3>How Can We Help you?</h3>
           </span>
           <div className="support-privacy">
-            <Link to="/support"> support</Link>
+            <NavLink to="/support" onClick={() => window.scrollTo(0, 0)}>
+              {" "}
+              support
+            </NavLink>
 
-            <Link to="/privacy" className="priv">
+            <NavLink
+              to="/privacy"
+              className="priv"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               {" "}
               privacy
-            </Link>
-            <Link to="/privacy" className="priv">
+            </NavLink>
+            <NavLink to="/terms" onClick={() => window.scrollTo(0, 0)}>
               {" "}
               T & C
-            </Link>
+            </NavLink>
           </div>
           <div className="social">
             <FaTwitter className="FaTwitter" />

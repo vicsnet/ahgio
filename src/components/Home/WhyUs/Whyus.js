@@ -21,15 +21,11 @@ function Whyus() {
       <h1 className="visible"> Why Us?</h1>
       <div className="main-why">
         <div className="why-col">
-<<<<<<< HEAD
           <div
             data-aos="fade-down"
             data-aos-easing="linear"
             className="why-col1"
           >
-=======
-          <div data-aos="fade-down" className="why-col1">
->>>>>>> 369062561d98c1814cc43c3aaab90f6b369e451c
             <h1 className="dis-show">Why Us? </h1>
             <p>
               We are geared towards making sure our users get all the most done
@@ -46,7 +42,7 @@ function Whyus() {
                     <h6>Safe, secure, and transparent transaction</h6>
                   </div>
                 </span>
-                <span>
+                <span className=" me-flex-span">
                   <div className="facheck">
                     <CheckCircleOutlineRoundedIcon className="check-round" />
                   </div>
@@ -68,7 +64,7 @@ function Whyus() {
                     </h6>
                   </div>
                 </span>
-                <span>
+                <span className=" me-flex-span2">
                   <div className="facheck">
                     <CheckCircleOutlineRoundedIcon className="check-round" />
                   </div>
