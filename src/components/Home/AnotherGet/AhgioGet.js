@@ -15,7 +15,7 @@ function AhgioGet() {
           <div className="let">
             <p>1</p>
           </div>
-          <div className="ahgio-details ">
+          <div className="ahgio-details ahgio-details1 ">
             <h3>Download the App & Create your Account</h3>
             <p>
               You can download the Wallet app on the GooglePlay store and
