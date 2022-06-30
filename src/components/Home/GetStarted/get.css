@@ -532,13 +532,14 @@
 }
 @media screen and (max-width: 498px) {
   .getstarted {
-    background-size: 360px 490px;
+    background-size: 430px 490px;
     background-position: top center;
     /* margin-top: -100px; */
     /* height: 700px; */
   }
   .main-start {
     height: 800px;
+    width: 100%;
   }
   
   .start-head {
@@ -618,6 +619,8 @@
     width: 8rem;
   }
 }
+@media screen and (max-width: 440px) {
+}
 @media screen and (max-width: 396px) {
   .span-col-2 {
     margin-left: -12rem;
@@ -641,7 +644,7 @@
 }
 @media screen and (max-width: 373px) {
   .getstarted {
-    background-size: 340px 380px;
+    background-size: 340px 450px;
   }
   .span-col-2 {
     margin-top: 5rem;
