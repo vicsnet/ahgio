@@ -8,11 +8,11 @@ function AhgioGet() {
         <h2>Here's How To Get Started...</h2>
       </div>
       <div className="agio-main">
-        <div className="ahgio-detail-text">
+        <div className="ahgio-detail-text ahgio-detail-text1">
           <div className="ahgio-no">
             <p>1</p>
           </div>
-          <div className="ahgio-details">
+          <div className="ahgio-details ">
             <h3>Download the App & Create your Account</h3>
             <p>
               You can download the Wallet app on the GooglePlay store and
