@@ -688,10 +688,31 @@ top: 336px; */
         margin-top: -24%;
     }
 }
+@media screen and (max-width:366px) {
+    .ahgio-details h3{
+        font-size: 12px;
+    }
+    .ahgio-details p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .ahgio-detail-text2{
+        margin-top: -27%;
+    }
+}
 @media screen and (max-width:364px) {
      
    .ahgio-detail-text2{
         margin-left: 18%;
         margin-top: -30%;
+    }
+}
+@media screen and (max-width:360px) {
+     
+   .ahgio-detail-text2{
+        margin-top: -28%;
+    }
+   .ahgio-detail-text3{
+        margin-top: -6%;
     }
 }
