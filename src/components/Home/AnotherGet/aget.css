@@ -548,7 +548,7 @@ top: 336px; */
  
 }
   .agio-main {
-    width: 98%;
+    width: 94%;
     background-size: 100% auto;
   }
   .ahgio-details1 p{
@@ -563,6 +563,9 @@ top: 336px; */
     width: 100%;
     margin-left: 0%;
   }
+}
+@media screen and (max-width:382px) {
+    
 }
 @media screen and (max-width:375px) {
     .ahgio-detail-text2{
