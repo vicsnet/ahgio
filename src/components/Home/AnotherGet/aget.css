@@ -628,6 +628,7 @@ top: 336px; */
   .agio-main {
     width: 90%;
     background-size: 100% auto;
+    background-position: top center;
   }
   .ahgio-details1 p{
     width: 100%;
@@ -640,6 +641,24 @@ top: 336px; */
   .ahgio-details3 p{
     width: 100%;
     margin-left: 0%;
+  }
+  .ahgio-details h3{
+    line-height: 17px;
+    margin-bottom: -30px;
+  }
+  .ahgio-details2 h3{
+    /* line-height: 17px; */
+    margin-bottom: -40px;
+  }
+  .ahgio-details3 h3{
+    /* line-height: 17px; */
+    margin-bottom: -10px;
+  }
+  .ahgio-detail-text2{
+    margin-top: -22%;
+  }
+  .ahgio-get-text h2{
+    padding-bottom: 0px;
   }
 }
 @media screen and (max-width:385px) {
